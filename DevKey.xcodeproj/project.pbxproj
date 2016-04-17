@@ -14,6 +14,24 @@
 		9421234F1CA5853600468778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9421234D1CA5853600468778 /* LaunchScreen.storyboard */; };
 		9421235A1CA5853600468778 /* DevKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942123591CA5853600468778 /* DevKeyTests.swift */; };
 		942123651CA5853600468778 /* DevKeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942123641CA5853600468778 /* DevKeyUITests.swift */; };
+		942123791CA5856000468778 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942123781CA5856000468778 /* KeyboardViewController.swift */; };
+		9421237D1CA5856000468778 /* DevKey - Developer Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 942123761CA5856000468778 /* DevKey - Developer Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9421238A1CA5CCD200468778 /* UIImageFromCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942123891CA5CCD200468778 /* UIImageFromCALayer.swift */; };
+		9421238D1CA5F77300468778 /* KeyboardButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9421238C1CA5F77300468778 /* KeyboardButtons.swift */; };
+		942123911CA681B500468778 /* LanguageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942123901CA681B500468778 /* LanguageProvider.swift */; };
+		942123931CA681FC00468778 /* highLevelLanguageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942123921CA681FC00468778 /* highLevelLanguageProvider.swift */; };
+		942123951CA6821C00468778 /* DefaultLanguageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942123941CA6821B00468778 /* DefaultLanguageProvider.swift */; };
+		942123971CA6830800468778 /* CharacterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942123961CA6830800468778 /* CharacterButton.swift */; };
+		942123991CA688A100468778 /* CircularArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942123981CA688A100468778 /* CircularArray.swift */; };
+		9421239C1CA68A5200468778 /* TouchDelegatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9421239B1CA68A5200468778 /* TouchDelegatingView.swift */; };
+		9421239E1CA68A7F00468778 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9421239D1CA68A7F00468778 /* SwipeView.swift */; };
+		942123A01CA68AD900468778 /* CGPointExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9421239F1CA68AD900468778 /* CGPointExtentions.swift */; };
+		942123A31CA6C0A500468778 /* SuggestionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942123A21CA6C0A500468778 /* SuggestionProvider.swift */; };
+		942123A51CA6C0B500468778 /* SuggestionTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942123A41CA6C0B500468778 /* SuggestionTree.swift */; };
+		942123A71CA6C11900468778 /* WeightedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942123A61CA6C11900468778 /* WeightedString.swift */; };
+		942123A91CA6C17100468778 /* StringSubscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942123A81CA6C17100468778 /* StringSubscripts.swift */; };
+		942123AB1CA6C23D00468778 /* PredictiveTextScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942123AA1CA6C23D00468778 /* PredictiveTextScrollView.swift */; };
+		942123AD1CA6C26100468778 /* SuggestionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942123AC1CA6C26100468778 /* SuggestionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +49,28 @@
 			remoteGlobalIDString = 942123401CA5853600468778;
 			remoteInfo = DevKey;
 		};
+		9421237B1CA5856000468778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942123391CA5853600468778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 942123751CA5856000468778;
+			remoteInfo = "DevKey - Developer Keyboard";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		942123811CA5856000468778 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9421237D1CA5856000468778 /* DevKey - Developer Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		942123411CA5853600468778 /* DevKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +86,27 @@
 		942123601CA5853600468778 /* DevKeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevKeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		942123641CA5853600468778 /* DevKeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevKeyUITests.swift; sourceTree = "<group>"; };
 		942123661CA5853600468778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		942123761CA5856000468778 /* DevKey - Developer Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DevKey - Developer Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		942123781CA5856000468778 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		9421237A1CA5856000468778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		942123821CA5A71B00468778 /* DevKey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DevKey.entitlements; sourceTree = "<group>"; };
+		942123831CA5A76600468778 /* DevKey - Developer Keyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "DevKey - Developer Keyboard.entitlements"; sourceTree = "<group>"; };
+		942123891CA5CCD200468778 /* UIImageFromCALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageFromCALayer.swift; sourceTree = "<group>"; };
+		9421238C1CA5F77300468778 /* KeyboardButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardButtons.swift; sourceTree = "<group>"; };
+		942123901CA681B500468778 /* LanguageProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageProvider.swift; sourceTree = "<group>"; };
+		942123921CA681FC00468778 /* highLevelLanguageProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = highLevelLanguageProvider.swift; sourceTree = "<group>"; };
+		942123941CA6821B00468778 /* DefaultLanguageProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLanguageProvider.swift; sourceTree = "<group>"; };
+		942123961CA6830800468778 /* CharacterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterButton.swift; sourceTree = "<group>"; };
+		942123981CA688A100468778 /* CircularArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularArray.swift; sourceTree = "<group>"; };
+		9421239B1CA68A5200468778 /* TouchDelegatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchDelegatingView.swift; sourceTree = "<group>"; };
+		9421239D1CA68A7F00468778 /* SwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		9421239F1CA68AD900468778 /* CGPointExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtentions.swift; sourceTree = "<group>"; };
+		942123A21CA6C0A500468778 /* SuggestionProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionProvider.swift; sourceTree = "<group>"; };
+		942123A41CA6C0B500468778 /* SuggestionTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionTree.swift; sourceTree = "<group>"; };
+		942123A61CA6C11900468778 /* WeightedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightedString.swift; sourceTree = "<group>"; };
+		942123A81CA6C17100468778 /* StringSubscripts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringSubscripts.swift; sourceTree = "<group>"; };
+		942123AA1CA6C23D00468778 /* PredictiveTextScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredictiveTextScrollView.swift; sourceTree = "<group>"; };
+		942123AC1CA6C26100468778 /* SuggestionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +131,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		942123731CA5856000468778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				942123431CA5853600468778 /* DevKey */,
+				942123771CA5856000468778 /* Developer Keyboard */,
 				942123581CA5853600468778 /* DevKeyTests */,
 				942123631CA5853600468778 /* DevKeyUITests */,
 				942123421CA5853600468778 /* Products */,
@@ -90,6 +158,7 @@
 				942123411CA5853600468778 /* DevKey.app */,
 				942123551CA5853600468778 /* DevKeyTests.xctest */,
 				942123601CA5853600468778 /* DevKeyUITests.xctest */,
+				942123761CA5856000468778 /* DevKey - Developer Keyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +166,7 @@
 		942123431CA5853600468778 /* DevKey */ = {
 			isa = PBXGroup;
 			children = (
+				942123821CA5A71B00468778 /* DevKey.entitlements */,
 				942123441CA5853600468778 /* AppDelegate.swift */,
 				942123461CA5853600468778 /* ViewController.swift */,
 				942123481CA5853600468778 /* Main.storyboard */,
@@ -125,6 +195,89 @@
 			path = DevKeyUITests;
 			sourceTree = "<group>";
 		};
+		942123771CA5856000468778 /* Developer Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				942123781CA5856000468778 /* KeyboardViewController.swift */,
+				942123A61CA6C11900468778 /* WeightedString.swift */,
+				942123851CA5C98A00468778 /* Views */,
+				9421238B1CA5F1E400468778 /* secondary characters */,
+				942123A11CA6C08B00468778 /* Suggestion */,
+				9421238E1CA5F7DF00468778 /* Extensions */,
+				9421239A1CA688B200468778 /* Helpers */,
+				9421238F1CA5F80400468778 /* Supporting Files */,
+			);
+			name = "Developer Keyboard";
+			path = "DevKey - Developer Keyboard";
+			sourceTree = "<group>";
+		};
+		942123841CA5C96A00468778 /* KeyboardButtons */ = {
+			isa = PBXGroup;
+			children = (
+				942123AC1CA6C26100468778 /* SuggestionButton.swift */,
+				9421238C1CA5F77300468778 /* KeyboardButtons.swift */,
+				942123961CA6830800468778 /* CharacterButton.swift */,
+			);
+			name = KeyboardButtons;
+			sourceTree = "<group>";
+		};
+		942123851CA5C98A00468778 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				942123841CA5C96A00468778 /* KeyboardButtons */,
+				9421239B1CA68A5200468778 /* TouchDelegatingView.swift */,
+				9421239D1CA68A7F00468778 /* SwipeView.swift */,
+				942123AA1CA6C23D00468778 /* PredictiveTextScrollView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9421238B1CA5F1E400468778 /* secondary characters */ = {
+			isa = PBXGroup;
+			children = (
+				942123901CA681B500468778 /* LanguageProvider.swift */,
+				942123941CA6821B00468778 /* DefaultLanguageProvider.swift */,
+				942123921CA681FC00468778 /* highLevelLanguageProvider.swift */,
+			);
+			name = "secondary characters";
+			sourceTree = "<group>";
+		};
+		9421238E1CA5F7DF00468778 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				942123A81CA6C17100468778 /* StringSubscripts.swift */,
+				9421239F1CA68AD900468778 /* CGPointExtentions.swift */,
+				942123891CA5CCD200468778 /* UIImageFromCALayer.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		9421238F1CA5F80400468778 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				942123831CA5A76600468778 /* DevKey - Developer Keyboard.entitlements */,
+				9421237A1CA5856000468778 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9421239A1CA688B200468778 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				942123981CA688A100468778 /* CircularArray.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		942123A11CA6C08B00468778 /* Suggestion */ = {
+			isa = PBXGroup;
+			children = (
+				942123A21CA6C0A500468778 /* SuggestionProvider.swift */,
+				942123A41CA6C0B500468778 /* SuggestionTree.swift */,
+			);
+			name = Suggestion;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +288,12 @@
 				9421233D1CA5853600468778 /* Sources */,
 				9421233E1CA5853600468778 /* Frameworks */,
 				9421233F1CA5853600468778 /* Resources */,
+				942123811CA5856000468778 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9421237C1CA5856000468778 /* PBXTargetDependency */,
 			);
 			name = DevKey;
 			productName = DevKey;
@@ -181,6 +336,23 @@
 			productReference = 942123601CA5853600468778 /* DevKeyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		942123751CA5856000468778 /* DevKey - Developer Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9421237E1CA5856000468778 /* Build configuration list for PBXNativeTarget "DevKey - Developer Keyboard" */;
+			buildPhases = (
+				942123721CA5856000468778 /* Sources */,
+				942123731CA5856000468778 /* Frameworks */,
+				942123741CA5856000468778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DevKey - Developer Keyboard";
+			productName = "DevKey - Developer Keyboard";
+			productReference = 942123761CA5856000468778 /* DevKey - Developer Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,6 +365,12 @@
 				TargetAttributes = {
 					942123401CA5853600468778 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7253U9FQVY;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					942123541CA5853600468778 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -201,6 +379,15 @@
 					9421235F1CA5853600468778 = {
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = 942123401CA5853600468778;
+					};
+					942123751CA5856000468778 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7253U9FQVY;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -220,6 +407,7 @@
 				942123401CA5853600468778 /* DevKey */,
 				942123541CA5853600468778 /* DevKeyTests */,
 				9421235F1CA5853600468778 /* DevKeyUITests */,
+				942123751CA5856000468778 /* DevKey - Developer Keyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +431,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9421235E1CA5853600468778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942123741CA5856000468778 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,6 +472,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		942123721CA5856000468778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942123931CA681FC00468778 /* highLevelLanguageProvider.swift in Sources */,
+				942123A91CA6C17100468778 /* StringSubscripts.swift in Sources */,
+				9421239C1CA68A5200468778 /* TouchDelegatingView.swift in Sources */,
+				942123AD1CA6C26100468778 /* SuggestionButton.swift in Sources */,
+				942123971CA6830800468778 /* CharacterButton.swift in Sources */,
+				9421239E1CA68A7F00468778 /* SwipeView.swift in Sources */,
+				942123911CA681B500468778 /* LanguageProvider.swift in Sources */,
+				942123A01CA68AD900468778 /* CGPointExtentions.swift in Sources */,
+				942123AB1CA6C23D00468778 /* PredictiveTextScrollView.swift in Sources */,
+				9421238D1CA5F77300468778 /* KeyboardButtons.swift in Sources */,
+				942123A71CA6C11900468778 /* WeightedString.swift in Sources */,
+				9421238A1CA5CCD200468778 /* UIImageFromCALayer.swift in Sources */,
+				942123951CA6821C00468778 /* DefaultLanguageProvider.swift in Sources */,
+				942123791CA5856000468778 /* KeyboardViewController.swift in Sources */,
+				942123A51CA6C0B500468778 /* SuggestionTree.swift in Sources */,
+				942123A31CA6C0A500468778 /* SuggestionProvider.swift in Sources */,
+				942123991CA688A100468778 /* CircularArray.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +508,11 @@
 			isa = PBXTargetDependency;
 			target = 942123401CA5853600468778 /* DevKey */;
 			targetProxy = 942123611CA5853600468778 /* PBXContainerItemProxy */;
+		};
+		9421237C1CA5856000468778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 942123751CA5856000468778 /* DevKey - Developer Keyboard */;
+			targetProxy = 9421237B1CA5856000468778 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -397,10 +621,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DevKey/DevKey.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DevKey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.svenis.DevKey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +637,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DevKey/DevKey.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DevKey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.svenis.DevKey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -463,6 +697,36 @@
 			};
 			name = Release;
 		};
+		9421237F1CA5856000468778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DevKey - Developer Keyboard/DevKey - Developer Keyboard.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "DevKey - Developer Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.svenis.DevKey.DevKey---Developer-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		942123801CA5856000468778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DevKey - Developer Keyboard/DevKey - Developer Keyboard.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "DevKey - Developer Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.svenis.DevKey.DevKey---Developer-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -482,6 +746,7 @@
 				9421236B1CA5853600468778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9421236C1CA5853600468778 /* Build configuration list for PBXNativeTarget "DevKeyTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +755,7 @@
 				9421236E1CA5853600468778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9421236F1CA5853600468778 /* Build configuration list for PBXNativeTarget "DevKeyUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +764,16 @@
 				942123711CA5853600468778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9421237E1CA5856000468778 /* Build configuration list for PBXNativeTarget "DevKey - Developer Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9421237F1CA5856000468778 /* Debug */,
+				942123801CA5856000468778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
